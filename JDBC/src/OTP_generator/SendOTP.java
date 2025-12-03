@@ -5,7 +5,7 @@ import java.net.*;
 
 public class SendOTP {
     public static void main(String[] args) throws IOException {
-        String apiKey = "SKcdb3b5e5f275a73c693db1db91139a8e";
+        String apiKey = "###";
         String message = "Your OTP is " + OTP.generateOTP();
         String senderId = "FSTSMS";
         String number = "9657160283"; // recipient mobile number
